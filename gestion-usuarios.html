@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestión de Usuarios</title>
+  <link rel="stylesheet" href="Public/css/admin.css">
+</head>
+
+<body>
+  <header>
+    <h1>Gestión de Usuarios</h1>
+    <button onclick="window.location.href='admin.html'">Regresar</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>Lista de Usuarios Registrados</h2>
+
+      <table id="tabla-usuarios">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nombre completo</th>
+            <th>Fecha de nacimiento</th>
+            <th>Género</th>
+            <th>País nacimiento</th>
+            <th>Nacionalidad</th>
+            <th>Correo</th>
+            <th>Fecha de registro</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <!-- Aquí JS insertará las filas -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="Public/js/gestion-usuarios.js"></script>
+
+</body>
+</html>
